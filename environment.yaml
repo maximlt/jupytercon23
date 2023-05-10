@@ -1,0 +1,16 @@
+name: jupytercon23
+channels:
+  - pyviz/label/dev
+  - conda-forge
+dependencies:
+  - datashader
+  - panel=1.0.0rc7
+  - hvplot
+  - holoviews=1.16
+  - bokeh>=3
+  - fastparquet
+  - jupyterlab
+  - pandas
+  - python=3.10
+  - xarray
+  - yfinance
